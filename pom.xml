@@ -11,4 +11,12 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>adevprolatam.registro_usuario.Registro_Usuario</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.15</version> <!-- O la versión más reciente -->
+        </dependency>
+    </dependencies>
+
 </project>

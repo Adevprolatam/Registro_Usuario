@@ -1,4 +1,7 @@
 adevprolatam\registro_usuario\Registro_Usuario.class
+Backend\Auth.class
+Backend\RegistroUsuario.class
+Frontend\LoginJFrame.class
 Frontend\RegistroJPanel.class
 Frontend\LoginJFrame$1.class
-Frontend\LoginJFrame.class
+Backend\Usuario.class
