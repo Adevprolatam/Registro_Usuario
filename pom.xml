@@ -11,6 +11,11 @@
             <artifactId>AbsoluteLayout</artifactId>
             <version>RELEASE190</version>
         </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.15</version> <!-- O la versión más reciente -->
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,12 +23,5 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>adevprolatam.registro_usuario.Registro_Usuario</exec.mainClass>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <version>1.15</version> <!-- O la versión más reciente -->
-        </dependency>
-    </dependencies>
 
 </project>

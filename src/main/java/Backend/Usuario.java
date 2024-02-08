@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Backend;
-import org.apache.commons.codec.digest.DigestUtils;
 /**
  *
  * @author dell
@@ -33,20 +32,7 @@ public class Usuario {
     }
 
     // @SETTERS
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public void setPassword(String password) {
         this.password = password;
     }
-    
-    public void encriptarPassword() {
-        this.password = DigestUtils.sha256Hex(this.password);
-    }
-    
 }

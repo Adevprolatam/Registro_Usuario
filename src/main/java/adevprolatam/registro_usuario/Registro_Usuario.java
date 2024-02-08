@@ -4,7 +4,7 @@
 
 package adevprolatam.registro_usuario;
 //IMPORTS
-import Frontend.LoginJFrame;
+import Frontend.RegistroJFrame;
 
 /**
  *
@@ -12,7 +12,7 @@ import Frontend.LoginJFrame;
  */
 public class Registro_Usuario {
     public static void main(String[] args) {
-        LoginJFrame view = new LoginJFrame();
+        RegistroJFrame view = new RegistroJFrame();
         view.setLocationRelativeTo(null);
         view.setVisible(true);    
     }

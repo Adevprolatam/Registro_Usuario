@@ -10,7 +10,7 @@ import org.apache.commons.codec.digest.DigestUtils;
  * @author dell
  */
 public class Auth {
-     public static String encriptarPassword(String password) {
+    public static String encriptarPassword(String password) {
         return DigestUtils.sha256Hex(password);
     }
 }
