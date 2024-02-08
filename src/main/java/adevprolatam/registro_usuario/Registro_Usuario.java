@@ -3,16 +3,17 @@
  */
 
 package adevprolatam.registro_usuario;
+//IMPORTS
 import Frontend.LoginJFrame;
+
 /**
  *
  * @author dell
  */
 public class Registro_Usuario {
-
     public static void main(String[] args) {
-      LoginJFrame view = new LoginJFrame();
-      view.setVisible(true);
-      view.setLocationRelativeTo(null);
+        LoginJFrame view = new LoginJFrame();
+        view.setLocationRelativeTo(null);
+        view.setVisible(true);    
     }
 }
